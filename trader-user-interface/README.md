@@ -26,9 +26,9 @@ Technologies
 ------------
 
 - Source control: Git(hub/lab)
-- Package manager: yarn (non PnP) preferred; alternatively 🟠npm
+- Package manager: yarn (non PnP) preferred; alternatively npm
 - Frontend framework: VueJS 3 written in TypeScript
 - Websockets. The choice of JS client is up to you, but the connections need to auto reconnect. The use of ReactiveJS is an option to handle the messages coming from the sockets
 - Styling/CSS: Tailwind CSS is preferred or CSS frameworks based on SASS or Stylus (e.g. Vuetify)
-- Build: suggestions are welcome but preference would be Parcel followed by 🟠Webpack. 🟢Vue-CLI (which uses webpack) is an acceptable solution for setting up the project and build.
+- Build: suggestions are welcome but preference would be Parcel followed by Webpack. Vue-CLI (which uses webpack) is an acceptable solution for setting up the project and build.
 - Ability to bundle everything into a lean Docker container would be a plus
