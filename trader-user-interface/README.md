@@ -1,8 +1,8 @@
 Trader User Interface
----------------------
+=====================
 
 Description
-===========
+-----------
 
 The job consists in building a user interface (a single HTML page, not an SPA) which will be used for crypto trading. The interface will be displaying few key elements including messages coming from a few backend services (all websocket based), the balances of the exchange accounts as tables and a "set up" area from which the trader can trigger changes in the trade backend services.
 
@@ -11,13 +11,13 @@ The work is 100% frontend and the API interactions will be provided with documen
 A note on compatibility: The page will be accessed by restricted people who only use Chrome and Edge, latest versions. Compatibility with old browsers is therefore not an issue.
 
 Deliverables
-============
+------------
 
 1. all source code which can be built/bundled using a single command: `yarn run build`. The 🚨built code by itself🚨 would **not be accepted as delivery**.
 2. a lean dockerfile which installs all necessary dependencies and builds the project, and in a second stage sets up the project to be served as a static site on port 80. This must be achievable with the single command `docker run -p 8888:80 trader-user-interface:latest`.
 
 Technologies
-============
+------------
 
 - Source control: Git(hub/lab)
 - Package manager: 🟢yarn (non PnP) preferred; alternatively 🟠npm
@@ -39,7 +39,7 @@ Technologies
 - Build: suggestions are welcome but preference would be 🟢Parcel followed by 🟠Webpack. 🟢Vue-CLI (which uses webpack) is an acceptable solution for setting up the project and build.
 
 Requirements
-============
+------------
 
 ### Page design
 
